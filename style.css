@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #202733;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main {
+  background-color: #313a48;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 10px;
+  padding: 40px 24px 0px 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.advice-box{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advice {
+  font-family: Manrope;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 3.4px;
+  text-align: center;
+  color: #53ffaa;
+}
+.number{
+  font-family: Manrope;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 3.4px;
+  text-align: center;
+  color: #53ffaa;
+}
+.text {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #cee3e9;
+}
+button {
+  background-color: #53ffaa;
+  border: none;
+  height: 64px;
+  width: 64px;
+  border-radius: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -32px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0px 2px 40px 10px #53FFAA ;
+}
+.desktop-divider {
+  display: none;
+}
+@media screen and (min-width: 1020px) {
+  .main {
+    margin-top: 193px;
+    border-radius: 15px;
+    padding: 48px 48px 0px 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+  }
+  .advice {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 4px;
+  }
+  .number{
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 4px;
+  }
+  .text {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.3px;
+  }
+  .mobile-divider {
+    display: none;
+  }
+  .desktop-divider {
+    display: block;
+    margin-top: 24px;
+  }
+}
